@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Tarefas</title>
-    <link rel="stylesheet" type="text/css" href="/css/app.css">
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="/js/adicionarTarefa.js" defer></script>
-    <script src="/js/concluirTarefa.js" defer></script>
-    <script src="/js/main.js" defer></script>
-    <script src="/js/filtrarTarefas.js" defer></script>
+    <link rel="stylesheet" type="text/css" href={{url("/css/app.css")}}>
+    <link rel="stylesheet" type="text/css" href={{url("/css/main.css")}}>
+    <link rel="stylesheet" href="{{url("https://use.fontawesome.com/releases/v5.7.2/css/all.css")}} integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src={{url("/js/adicionarTarefa.js")}} defer></script>
+    <script src={{url("/js/concluirTarefa.js")}} defer></script>
+    <script src={{url("/js/main.js")}} defer></script>
+    <script src={{url("/js/filtrarTarefas.js")}} defer></script>
   </head>
   <body>
 
