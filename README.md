@@ -1,6 +1,6 @@
 # To-Do-List
 
-Application developed with Laravel in backend and React in frontend
+Application developed with Laravel
 
 ## How to install packages
 
